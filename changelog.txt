@@ -4,6 +4,17 @@
 (C) Michael Würtenberger 2014,2015
 
 changelog
+v 3.4
+- expert lines are swap. only on expert line is seen at the same time.
+- no separate extries in visu.css needed, all are in widget_uzsu.html
+
+v 3.3
+- fixes und design type=1 sollte erst mal laufen
+
+v 3.2
+- umstellung von tabellen auf responsive design mit float
+- anpassung des designs auf diesen sachverhalt für schmalere displays
+
 v 3.1
 - erstanlage
 - bool bekommt wie bei listen analog ebenfalls einen parametersatz mit, mit dem die setzten Werte des Sliders festgelegt werden

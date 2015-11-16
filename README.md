@@ -3,7 +3,7 @@
 ###JAVA Script Widget for use in smarthome / smartvisu environment in combination with uzsu plugin
 (C) Michael Würtenberger 2014,2015
 
-Stand: develop v 3.1
+Stand: responsive v 3.4
 
 Installation:
 1. Download von visu.js und widget_uzsu.html aus Github
@@ -11,8 +11,6 @@ Link: https://github.com/mworion/usu_widget
 
 2. Beide Dateien in das Projektverzeichnis Eurer Visu hineinkopieren. 
 Das müßte unter /www/smartvisu/pages/"name des Projektes" liegen.
-Es gibt auch eine .css, die Ihr benötigt um z.B. beim Chrome Browser die Feldbreite zu vergößern. 
-Muß aber nicht zwingend genutzt werden.
 
 3. Einbinden des Widgets in Eure Seite mit
 <pre>
@@ -75,9 +73,9 @@ Nochmal die Parameter im Widget:
 * Widget for usage of uzsu plugin
 * (c) Michael Würtenberger 2014, 2015
 *
-* master v3.01
+* responsive v3.4
 *
-* läuft zusammen mit dem visu.js ab v2.8 
+* läuft zusammen mit dem visu.js (responsive) ab v3.3 
 *
 * @param unique id for this widget
 * @param a gad/item
@@ -89,6 +87,8 @@ Nochmal die Parameter im Widget:
 * @param valueType (optional), default = bool, supported types are 'bool', 'num', 'text', 'list'
 * @param valueParameterList (optional), default set in js depending on valueType
 */
+
+{% macro uzsu_icon(id, gad_uzsu, gad_headline, gad_designType, pic_on, pic_off, gad_valueType, gad_valueParameterList) %}
 </pre>
 
 Viel Spaß
